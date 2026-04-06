@@ -1,12 +1,15 @@
 # Audiolib Skill
 
 Add background audio to your product with one API call.
+Make your product feel alive.
 
 ```
 play('audio.focus', 'alp_your_api_key')
 ```
 
 ---
+
+If your product feels silent, it probably needs audio.
 
 ## When to use this
 
@@ -70,7 +73,3 @@ https://audiolib.ai
 - Returns random audio from curated libraries
 - Designed for continuous background playback
 - No music expertise required
-
----
-
-If your product feels silent, it probably needs audio.
