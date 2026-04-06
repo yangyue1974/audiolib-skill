@@ -1,6 +1,10 @@
 # Audiolib Skill
 
-Add background audio to any product using one API call.
+Add background audio to your product with one API call.
+
+```js
+play('audio.focus', 'alp_your_api_key')
+```
 
 ---
 
@@ -30,14 +34,6 @@ You can use it to:
 - Add focus music
 - Add ambient background
 - Add energy to interactions
-
----
-
-## One-line usage
-
-```js
-play('audio.focus', 'alp_your_api_key')
-```
 
 ---
 
@@ -74,3 +70,7 @@ https://audiolib.ai
 - Returns random audio from curated libraries
 - Designed for continuous background playback
 - No music expertise required
+
+---
+
+If your product feels silent, it probably needs audio.
