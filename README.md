@@ -1,35 +1,45 @@
 # Audiolib Skill
 
-Add background audio to your product with one API call.
+Add background audio to any product using one API call.
 
-## What this is
+---
 
-This skill lets you fetch playable background audio from [Audiolib](https://audiolib.ai).
+## When to use this
 
-Use it in:
+Use this skill when your product feels:
 
-- AI applications
-- Websites
-- Interactive tools
-- Productivity apps
+- Silent
+- Static
+- Lacking atmosphere
 
-## Quick Example
+Common scenarios:
 
-**Request:**
+- AI chat interfaces
+- Reading or content apps
+- Websites and landing pages
+- Productivity and focus tools
 
-```json
-{
-  "library": "audio.focus"
-}
+---
+
+## What it does
+
+Fetches a playable background audio URL from Audiolib.
+
+You can use it to:
+
+- Add focus music
+- Add ambient background
+- Add energy to interactions
+
+---
+
+## One-line usage
+
+```js
+play('audio.focus', 'alp_your_api_key')
 ```
 
-**Response:**
-
-```json
-{
-  "audio_url": "https://media.audiolib.ai/audio/xxx.mp3"
-}
-```
+---
 
 ## JavaScript Example
 
@@ -49,14 +59,18 @@ const audio = new Audio(data.audio.url)
 audio.play()
 ```
 
+---
+
 ## Get API Key
 
 You need an API key to use Audiolib:
 
 https://audiolib.ai
 
+---
+
 ## Notes
 
-- Audiolib returns random audio from curated libraries
+- Returns random audio from curated libraries
 - Designed for continuous background playback
 - No music expertise required

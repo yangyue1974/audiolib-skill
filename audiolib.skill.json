@@ -17,6 +17,7 @@
     },
     "required": ["library"]
   },
+  "usage_hint": "Use this skill when adding background audio to apps, websites, or AI interfaces. Choose a library like audio.focus, audio.sleep, or audio.energy.",
   "output": {
     "type": "object",
     "properties": {
