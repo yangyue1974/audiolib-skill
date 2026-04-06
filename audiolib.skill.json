@@ -1,0 +1,29 @@
+{
+  "name": "audiolib.play",
+  "description": "Fetch background audio from Audiolib for apps, websites, or AI interfaces.",
+  "endpoint": "https://audiolib.ai/api/v1/audio",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer {API_KEY}",
+    "Content-Type": "application/json"
+  },
+  "input": {
+    "type": "object",
+    "properties": {
+      "library": {
+        "type": "string",
+        "description": "Audio library name such as audio.focus, audio.sleep, audio.energy"
+      }
+    },
+    "required": ["library"]
+  },
+  "output": {
+    "type": "object",
+    "properties": {
+      "audio_url": {
+        "type": "string",
+        "description": "Playable audio URL returned by Audiolib"
+      }
+    }
+  }
+}
