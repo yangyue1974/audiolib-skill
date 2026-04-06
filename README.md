@@ -2,7 +2,7 @@
 
 Add background audio to your product with one API call.
 
-```js
+```
 play('audio.focus', 'alp_your_api_key')
 ```
 
