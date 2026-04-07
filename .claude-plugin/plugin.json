@@ -1,0 +1,9 @@
+{
+  "name": "audiolib",
+  "version": "1.0.0",
+  "description": "Add background audio to any product with one API call. Fetch focus, sleep, or energy audio from Audiolib.",
+  "license": "MIT",
+  "author": "Audiolib",
+  "homepage": "https://audiolib.ai",
+  "repository": "https://github.com/yangyue1974/audiolib-skill"
+}
